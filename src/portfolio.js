@@ -40,7 +40,7 @@ const socialMediaLinks = {
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  instagram: "https://www.instagram.com/alexngyn"
+  instagram: "https://www.instagram.com/alex.ngyn_/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -127,10 +127,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Saigon South International School",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      duration: "August 2017 - May 2027",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -140,10 +140,21 @@ const educationInfo = {
     {
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      subHeader: "Pre-Collegiate University-Level Online Math & Physics",
+      duration: "August 2025 - December 2025",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "University of Southern California",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Pre-College Summer Program",
+      duration: "June 2024 - July 2024",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
   ]
 };
@@ -235,7 +246,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "3 Time Vietnam National Champions in VEX Robotics",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -256,7 +267,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Create Award at VEX World Championships",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
@@ -270,7 +281,7 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "5 Time Half Marathon Finisher",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
