@@ -183,7 +183,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer Intern",
@@ -211,8 +211,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Seamorny Aquaculture",
+      projectDesc: "Created technical drawings of an sustainable aquacultural crustacean farming system for use in a United States Patent and Trademark; Programed a Jacobian-based Inverse Kinematics for a 7DOF Robot, used as a prototype for a interaction actuator with the crustaceans; Designed and rendered 3D product animations of the aquacultural robot for the Qualcomm Vietnam Innovation Challenge Finale",
       footerLink: [
         {
           name: "Visit Website",
@@ -223,8 +223,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "DIY Keyboard",
+      projectDesc: "Designed and Manufactured a custom keyboard, learning PCB manufactring and CNC cutting.",
       footerLink: [
         {
           name: "Visit Website",
@@ -253,16 +253,8 @@ const achievementSection = {
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Sepa post",
+          url: "https://sepa.org.vn/viet-nam-tu-hao-18-doi-tuyen-san-sang-chinh-phuc-vex-robotics-world-championship-2025/"
         }
       ]
     },
@@ -274,8 +266,8 @@ const achievementSection = {
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Award",
+          url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-24-8909.html#awards"
         }
       ]
     },
@@ -286,10 +278,10 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certificates", url: "https://drive.google.com/drive/u/0/folders/13_SREIaSwLjN0HCpkS7qaLVJ9Si1WBIl"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Random News Article That Talks About My Family Running",
+          url: "https://thethao.sggp.org.vn/run-to-live-2024-that-chat-hon-tinh-cam-gia-dinh-post730145.html"
         }
       ]
     }
